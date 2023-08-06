@@ -48,6 +48,21 @@ const Portfolio = () => {
            <img src={Project4} alt="" />
           </Link>
         </SwiperSlide>
+        <SwiperSlide>
+          <Link to="">
+           <img src={Project5} alt="" />
+          </Link>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Link to="">
+           <img src={Project6} alt="" />
+          </Link>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Link to="">
+           <img src={Project7} alt="" />
+          </Link>
+        </SwiperSlide>
       </Swiper>
     </div>
   );

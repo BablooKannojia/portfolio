@@ -11,8 +11,6 @@ import Project6 from "../../img/p6.png";
 import Project7 from "../../img/p7.png";
 
 import { themeContext } from "../../Context";
-import { Link } from "react-scroll";
-import { NavLink } from "react-router-dom";
 const Portfolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -30,39 +28,25 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <NavLink to="vnfashions.com">
            <img src={Project1} alt="" />
-          </NavLink>
         </SwiperSlide>
         <SwiperSlide>
-          <NavLink to="alankarandesigns.com">
            <img src={Project2} alt="" />
-          </NavLink>
         </SwiperSlide>
         <SwiperSlide>
-          <NavLink to="bednsheet.com">
            <img src={Project3} alt="" />
-          </NavLink>
         </SwiperSlide>
         <SwiperSlide>
-          <NavLink to="dhanukhabioplantation.com">
            <img src={Project4} alt="" />
-          </NavLink>
         </SwiperSlide>
         <SwiperSlide>
-          <NavLink to="mbizspare.com">
            <img src={Project5} alt="" />
-          </NavLink>
         </SwiperSlide>
         <SwiperSlide>
-          <NavLink to="https://gamehuntt.vercel.app/">
            <img src={Project6} alt="" />
-          </NavLink>
         </SwiperSlide>
         <SwiperSlide>
-          <NavLink to="">
            <img src={Project7} alt="" />
-          </NavLink>
         </SwiperSlide>
       </Swiper>
     </div>

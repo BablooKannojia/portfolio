@@ -3,12 +3,11 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import Project1 from "../../img/p1.png";
-import Project2 from "../../img/p2.png";
-import Project3 from "../../img/p3.png";
 import Project4 from "../../img/p4.png";
 import Project5 from "../../img/p5.png";
 import Project6 from "../../img/p6.png";
 import Project7 from "../../img/p7.png";
+import CakeAnyTime from "../../img/cakeanytime.png";
 
 import { themeContext } from "../../Context";
 const Portfolio = () => {
@@ -31,10 +30,9 @@ const Portfolio = () => {
            <img src={Project1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-           <img src={Project2} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-           <img src={Project3} alt="" />
+           <a href="https://cakeanytime.in">
+            <img src={CakeAnyTime} alt="CakeAnyTime.in" />
+           </a>
         </SwiperSlide>
         <SwiperSlide>
            <img src={Project4} alt="" />

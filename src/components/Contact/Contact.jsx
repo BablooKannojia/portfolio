@@ -39,7 +39,7 @@ const Contact = () => {
           <span>Contact me</span>
           <div
             className="blur s-blur1"
-            style={{ background: "#ABF1FF94" }}
+            style={{ background: "#ABF1FF94", filter: "brightness(0.5)" }}
           ></div>
         </div>
       </div>

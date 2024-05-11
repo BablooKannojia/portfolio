@@ -29,7 +29,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hello! I Am</span>
           <span>Babloo Kannojia</span>
           <span>
-            Frontend Developer with high level of experience in web Designing
+            Front End Developer with high level of experience in web Designing
             and Development, producting the Quality work.
           </span>
         </div>
@@ -38,9 +38,9 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/BablooKannojia" alt=""><img src={Github} alt="" /></a>
+          <a href="https://www.linkedin.com/in/babloo-kannojia-939121169/" alt=""><img src={LinkedIn} alt="" /></a>
+          <a href="https://www.instagram.com/bablookannojia/?next=%2F" alt=""><img src={Instagram} alt="" /></a>
         </div>
       </div>
       {/* right image side */}
@@ -63,7 +63,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={crown} text1="Frontend" text2="Developer" />
         </motion.div>       
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

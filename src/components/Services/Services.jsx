@@ -25,11 +25,11 @@ const Services = () => {
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span>Services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          My Skills- Html, Css, BootStrap, JavaScript, TypeScript, Git GitHub, Tailwind Css,
           <br />
-          ispum is simpley dummy text of printing
+          React.js, Angular, RestAPI, MySQL
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -46,8 +46,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Photoshop, Coreldraw"}
+            heading={"Development"}
+            detail={"Html, Css, BootStrap, JavaScript, React, Redux, Tailwind Css, Angular"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +58,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, Wordpress, React, Nodejs, Express"}
+            heading={"Version Control"}
+            detail={"Git, Github"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +70,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"DataBase"}
             detail={
-              "Coreldraw, Adobe Photoshop"
+              "MySQL, RestAPI"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

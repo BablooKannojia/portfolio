@@ -8,6 +8,8 @@ import Project5 from "../../img/p5.png";
 import Project6 from "../../img/p6.png";
 import Project7 from "../../img/p7.png";
 import CakeAnyTime from "../../img/cakeanytime.png";
+import Loksatya from "../../img/loksatya.png"
+import Vendor from "../../img/vendor.png"
 
 import { themeContext } from "../../Context";
 const Portfolio = () => {
@@ -27,7 +29,14 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-           <img src={Project1} alt="" />
+           <a href="https://loksatya.com">
+            <img src={Loksatya} alt="Loksatya.com" />
+           </a>
+        </SwiperSlide>
+        <SwiperSlide>
+           <a href="https://vendorbrowser.com">
+            <img src={Vendor} alt="vendorbrowser.com" />
+           </a>
         </SwiperSlide>
         <SwiperSlide>
            <a href="https://cakeanytime.in">
@@ -35,10 +44,17 @@ const Portfolio = () => {
            </a>
         </SwiperSlide>
         <SwiperSlide>
+          <a href="https://vnfashions.com">
+           <img src={Project1} alt="" />
+           </a>
+        </SwiperSlide>
+        <SwiperSlide>
            <img src={Project4} alt="" />
         </SwiperSlide>
         <SwiperSlide>
+         <a href="https://mbizspare.com">
            <img src={Project5} alt="" />
+           </a>
         </SwiperSlide>
         <SwiperSlide>
            <img src={Project6} alt="" />

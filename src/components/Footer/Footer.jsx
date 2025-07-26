@@ -11,8 +11,9 @@ const Footer = () => {
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
 
-      <div className="f-content">
-        <span>bablookmr143@gmail.com</span>
+      <div className="f-content gap-0">
+        <span>Email: bablookmr143@gmail.com</span>
+        <span>Mob: +91 8115353051</span>
         <div className="f-icons">
           <BrowserRouter>
             <Link to="www.instagram.com/bablookannojia"><Insta color="white" size={"3rem"} /></Link>
